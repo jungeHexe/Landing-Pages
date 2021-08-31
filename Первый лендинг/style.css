@@ -1,0 +1,179 @@
+*, header, section, div{  /*обнуляет отступы на странице, блоки от края до края*/
+    margin:0;
+    padding:0;
+}
+header{
+    position:fixed;
+}
+.overlay{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height:84px;
+  background-color: #007765;
+  
+}
+.logo{
+  width:184px;
+  height:45px;
+  margin: auto 15vw auto;
+}
+.menu{
+  font-size:24px;
+  height:29px;
+  width:auto;
+  margin-left:20vw;
+  margin-right:5vw;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight:500;
+  font-style: normal;
+  line-height: 28px;
+  text-align:center;
+}
+.menu ul{
+  margin: auto;
+}
+.menu li{
+  margin-right:7px;
+  display:inline-block;
+}
+.menu a{
+  text-decoration: none;
+  color: #fff;
+}
+.block{ /*костыль чтобы сдвинуть картинку в положенное место, иначе начинается с начала страницы*/
+  width:100vw;
+  height:84px;
+}
+.hate{
+  display:flex;
+  width:100vw;
+  height: 405px;
+  background-image: url(Pictures/imageшапка.svg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.glass{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  display:flex;
+  margin:0px;
+}
+.text-hate{
+  color:#fff;
+  font-size:72px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 84px;
+  margin:auto;
+}
+.problem{
+  width:100vw;
+  height: 650px;
+  text-align:center;
+  background-color: #EEE;
+  padding-top:48px;
+}
+.title{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  margin:0px auto 16px;
+}
+.text{
+  width:1000px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000;
+  margin:0px auto 37.5px;
+}
+.hero{
+  background-image: url(Pictures/imagehero.svg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width:100vw;
+  height: 483px;
+  display:flex;
+}
+.text-hero{
+  width: 893px;
+  height: 228px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  margin:auto;
+}
+.coin{
+  background-color: #fff;
+  width:100vw;
+  height:605px;
+  text-align:center;
+  padding-top:50px;
+}
+.logo-PPC{
+  float:left;
+  margin-left:16vw;
+  margin-right:40px;
+}
+.team{
+  width:100vw;
+  height: 845px;
+  background-color: #eee;
+  text-align:center;
+  padding-top: 48px;
+}
+.icon{
+  display:inline-block;
+}
+.photo{
+  margin:56px 106px 12px;
+}
+.name{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  margin:0;
+}
+.job{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+  margin-bottom: 82px;
+}
+.footer{
+  height: 176px;
+  background: #333;
+  text-align:center;
+  display:flex;
+}
+.text-footer{
+  width: 540px;
+  height: 64px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFF;
+  margin:auto;
+}

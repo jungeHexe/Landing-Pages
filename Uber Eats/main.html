@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>UBER EATS</title>
+  <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:576px) and (min-width:320px)" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width:320px)" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img  src="pictures/logo.svg">
+                </div> 
+                <div class="login">
+                    <button><p class="login_txt">Войти</p></button>
+                </div>
+                <div class="basket">
+                    <button><img class="basket_img" src="pictures/basket.svg"></button>
+                </div> 
+            </div>
+        </div>
+    </header>
+    <section class="section"> <!---вообще должно бы быть без section но когда убираешь все ломается-->
+        <div class="search">
+            <div class="container">
+                <form class="search_form">
+                    <input type="text" name="q" placeholder="Пoиск по ресторанам и кухням">
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="main">
+        <div class="container">
+            <h3 class="main_title">Рестораны в Москве</h3>
+            <div class="main_body">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photoМак.png">
+                            <h3 class="rest">Макдоналдс - Газетный</h3>
+                            <h4 class="meals">₽₽ • Бургеры</h4>
+                            <h4 class="time">25-35 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photoDinSum.png">
+                            <h3 class="rest">DimSum & Co — ЦДМ</h3>
+                            <h4 class="meals">₽ • Японская • Китайская • Азиатская</h4>
+                            <h4 class="time">40-50 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photoДвижОК.png">
+                            <h3 class="rest">ДвижОК — Манежная</h3>
+                            <h4 class="meals">₽ • Американская • Европейская</h4>
+                            <h4 class="time">35-45 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photoНЯ.png">
+                            <h3 class="rest">НЯ — NHA</h3>
+                            <h4 class="meals">₽₽ • Вьетнамская</h4>
+                            <h4 class="time">30-40 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photoТочка Дзы.png">
+                            <h3 class="rest">Точка Дзы — Цветной</h3>
+                            <h4 class="meals">₽₽ • Вьетнамская</h4>
+                            <h4 class="time">40-50 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photocinnabon.png">
+                            <h3 class="rest">Cinnabon</h3>
+                            <h4 class="meals">₽ • Выпечка • Десерты • Капкейки</h4>
+                            <h4 class="time">25-35 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photopizzelove.png">
+                            <h3 class="rest">PIZZELOVE</h3>
+                            <h4 class="meals">₽₽ • Пицца</h4>
+                            <h4 class="time">15-25 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photozю.png">
+                            <h3 class="rest">Zю кафе — Тверская</h3>
+                            <h4 class="meals">₽₽ • Японская</h4>
+                            <h4 class="time">25-35 мин</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-xs-12">
+                        <div class="card">
+                            <img src="pictures/photobar bq.png">
+                            <h3 class="rest">Bar BQ Cafe — Манежная</h3>
+                            <h4 class="meals">₽₽₽ • Европейская</h4>
+                            <h4 class="time">30-40 мин</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="logo_footer">
+                    <img src="pictures/white-logowhitelogo.svg">
+                </div>
+            </div>
+            <div class="row information">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <select required>
+                        <option>Русский</option>
+                        <option>English</option>
+                        <option>Deutsch</option>
+                     </select>
+                    <img src="pictures/social.svg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="text_footer">
+                        <div>Об UberEats</div>
+                        <div>Станьте партнёром по доставке</div>
+                        <div>Станьте партнёром-рестораном</div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="text_footer">
+                        <div>Все города</div>
+                        <div>Цены</div>
+                        <div>Помощь</div>
+                        <div>FAQs</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row app_stores">
+                <img src="pictures/appstore.svg">
+                <img src="pictures/google play.svg"> 
+            </div>
+            <div class="row about_footer">
+                <div>© 2017 Uber Technologies Inc.</div>
+                <div>Обработка персональных данных</div>
+                <div>Пользовательское соглашение</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
